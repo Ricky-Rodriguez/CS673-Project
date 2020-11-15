@@ -62,7 +62,7 @@ header {
   width: 100%;
   height: 2px;
   /* background-color: #fff; */
-  background-color: rgba(242, 183, 5, 1);
+  background-color: #7c9ea6;
   position: absolute;
   left: 0;
   bottom: -3px;
@@ -96,7 +96,7 @@ header {
   display: block;
   justify-content: center;
   align-items: center;
-  background-color: rgba(51, 74, 124, 0.74);
+  background-color: #51b4caa1;
   padding-top: 150px;
 }
 
@@ -106,23 +106,31 @@ header {
   align-items: center;
   padding-top: 50px;
   font-size: 3rem;
+  padding-bottom: 25px;
 }
+
+/*
 
 form {
   width: 800px;
   display: flex;
   margin-top: 50px;
   margin-left: 50px;
-}
+} */
 
 /* input {
 } */
+
+.main-form {
+  width: 550px;
+  margin: auto;
+}
 
 .previous {
   min-height: 60vh;
   width: auto;
   display: block;
-  background-color: #558877;
+  background-color: #52a1b1cb;
 }
 
 .previous h2 {
@@ -154,6 +162,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 40px;
 }
 
 .social-list {
@@ -197,4 +206,46 @@ footer {
       inset -1rem -1rem 2rem rgba(255, 255, 255, 0.5); */
   box-shadow: inset 1rem 1rem 2rem rgba(24, 53, 64, 0.541),
     inset -1rem -1rem 2rem rgba(156, 179, 184, 0.7);
+}
+
+.single-page {
+  min-height: 85vh;
+}
+
+/* televisit */
+
+#videos {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#subscriber {
+  /* position: absolute; */
+  /* left: 0;
+  top: 0; */
+  width: 100%;
+  height: 100%;
+  /* z-index: 10; */
+}
+
+#publisher {
+  position: absolute;
+  width: 360px;
+  height: 240px;
+  bottom: 10px;
+  left: 10px;
+  /* z-index: 100; */
+  /* border: 3px solid white;
+  border-radius: 3px; */
+}
+
+/* Hacky Fixes */
+.OT_video-loading {
+  display: none !important;
+}
+.OT_video-unsupported {
+  display: none !important;
 }
